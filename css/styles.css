@@ -1,0 +1,56 @@
+body {
+  font-family: roboto;
+  background: #ffffff;
+  color: #000000;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+/* Утилита */
+.list {
+  list-style: none;
+}
+/* Шапка */
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+}
+.logo-web {
+  color: #2196f3;
+}
+.site-nav .link {
+  color: #000000;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.adress .link {
+  color: #757575;
+  text-decoration: none;
+}
+.adress .link:focus,
+.adress .link:hover {
+  color: #2196f3;
+}
+/* Герой */
+.hero {
+  background-color: #2f303a;
+}
+.hero-titel {
+  color: #ffffff;
+}
+/* Особенности */
+.feature-list .text {
+  color: #757575;
+}
+.feature-list .h2 {
+  display: none;
+}
