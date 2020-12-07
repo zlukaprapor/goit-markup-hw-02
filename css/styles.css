@@ -14,6 +14,7 @@ ul {
   list-style: none;
 }
 /* Шапка */
+
 .logo {
   font-family: Raleway;
   font-weight: bold;
@@ -25,6 +26,7 @@ ul {
   color: #2196f3;
 }
 /* Навигация */
+
 .site-nav .link {
   font-style: normal;
   font-weight: 500;
@@ -35,6 +37,9 @@ ul {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: #2196f3;
+}
+.site-nav .active {
   color: #2196f3;
 }
 .adress .link {
@@ -51,6 +56,7 @@ ul {
 }
 
 /* Герой */
+
 .hero {
   background-color: #2f303a;
 }
@@ -63,6 +69,7 @@ ul {
 }
 
 /* Особенности */
+
 .feature-heading {
   display: none;
 }
@@ -82,4 +89,104 @@ ul {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+/* Чем мы занимаемся */
+
+.images-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* Наша команда */
+
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team .head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team .text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* .time-list-one {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+}
+.time-list-two {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 1635px;
+}
+.time-list-three {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 815px;
+  top: 1635px;
+}
+.time-list-four {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 1635px;
+} */
+
+/* Подвал */
+
+.foot {
+  background-color: #2f303a;
+}
+.foot-adress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.foot .link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.foot .link:hover,
+.foot .link:focus {
+  color: #2196f3;
 }
