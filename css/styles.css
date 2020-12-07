@@ -7,50 +7,79 @@ body {
   padding-right: 20px;
   padding-left: 20px;
 }
-/* Утилита */
-.list {
+a {
+  text-decoration: none;
+}
+ul {
   list-style: none;
 }
 /* Шапка */
 .logo {
-  color: #000000;
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  text-decoration: none;
+  color: #000000;
 }
 .logo-web {
   color: #2196f3;
 }
+/* Навигация */
 .site-nav .link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #000000;
-  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
 }
 .adress .link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #757575;
-  text-decoration: none;
 }
 .adress .link:focus,
 .adress .link:hover {
   color: #2196f3;
 }
+
 /* Герой */
 .hero {
   background-color: #2f303a;
 }
-.hero-titel {
+.hero-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
   color: #ffffff;
 }
+
 /* Особенности */
-.feature .text {
-  color: #757575;
-}
-.feature .h2 {
+.feature-heading {
   display: none;
+}
+.feature .head {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.feature .text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
