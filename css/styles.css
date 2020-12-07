@@ -2,12 +2,14 @@
   --primeri-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --dark-color: #000000;
 }
 
 body {
   font-family: roboto;
-  background: #ffffff;
-  color: #000000;
+  background: var(--white-color);
+  color: var(--dark-color);
   padding-top: 40px;
   padding-bottom: 40px;
   padding-right: 20px;
@@ -26,7 +28,7 @@ ul {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  color: #000000;
+  color: var(--dark-color);
 }
 .logo-web {
   color: var(--accent-color);
@@ -39,7 +41,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #000000;
+  color: var(--dark-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -71,7 +73,13 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  color: #ffffff;
+  color: var(--white-color);
+}
+
+/* button */
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 
 /* Особенности */
@@ -112,7 +120,7 @@ ul {
 /* Наша команда */
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--white-color);
 }
 .team-title {
   font-style: normal;
@@ -182,7 +190,7 @@ ul {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .foot .link {
   font-style: normal;
