@@ -175,34 +175,6 @@ ul {
   letter-spacing: 0.03em;
   color: var(--primeri-text-color);
 }
-/* .time-list-one {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 1635px;
-}
-.time-list-two {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 515px;
-  top: 1635px;
-}
-.time-list-three {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 815px;
-  top: 1635px;
-}
-.time-list-four {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 1115px;
-  top: 1635px;
-} */
 
 /* Подвал */
 
@@ -210,7 +182,6 @@ ul {
   background-color: #2f303a;
 }
 .foot-adress {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -235,4 +206,22 @@ ul {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  color: var(--white-color)
+  color: var(--white-color);
+}
+/* Проекты */
+.progect .head {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.progect .text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--primeri-text-color);
+}
