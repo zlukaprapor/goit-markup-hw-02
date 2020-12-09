@@ -230,3 +230,9 @@ ul {
 .foot .link:focus {
   color: var(--accent-color);
 }
+.foot .logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--white-color)
