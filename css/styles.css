@@ -70,6 +70,7 @@ ul {
   background-color: #2f303a;
 }
 .hero-title {
+  text-transform: uppercase;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
