@@ -89,6 +89,7 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  background-color: var(--accent-color);
 }
 .button.portfolio {
   font-style: normal;
@@ -98,7 +99,14 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.button.primari {
+.button.active:hover,
+.button.active:focus {
+  color: var(--title-text-color);
+  background-color: var(--batton-background-color);
+  border-radius: 4px;
+}
+.button.primari:hover,
+.button.primari:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
   border-radius: 4px;
