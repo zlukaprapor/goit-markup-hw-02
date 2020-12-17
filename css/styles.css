@@ -136,7 +136,8 @@ ul {
 
 /* Чем мы занимаемся */
 
-.images-title {
+.images-title,
+.team-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.1;
@@ -149,14 +150,6 @@ ul {
 
 .team {
   background-color: var(--white-color);
-}
-.team-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
 }
 .team .head {
   font-weight: 500;
